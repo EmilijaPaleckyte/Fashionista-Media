@@ -1,0 +1,623 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+}
+.opening-image {
+  background-color: grey;
+  background-image: url(img/openingpage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.logo {
+  position: relative;
+  right: -900px;
+  bottom: -40px;
+}
+.sidebar {
+  box-sizing: border-box;
+  height: 80%;
+  width: 250px;
+  position: relative;
+  top: -430px;
+  left: -30px;
+  background: black;
+  transition: 0.5s ease;
+  transform: translateX(30px);
+  color: white;
+}
+.sidebar .head {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 45px;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+ol {
+  width: 100%;
+  list-style: none;
+}
+ol li {
+  display: block;
+  width: 100%;
+}
+ol li a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+  font-size: larger;
+  transition: 0.3s;
+  text-align: center;
+}
+ol li:hover a {
+  background: rgb(180, 180, 180);
+  color: black;
+  letter-spacing: 3px;
+}
+.page2 {
+  background-color: grey;
+  background-image: url(img/baras.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+h1 {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  padding: 30px;
+}
+.grid-container {
+  display: grid;
+  gap: 30px;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1r 1fr 1fr 1fr 1fr;
+  grid-template-rows: 210px 210px 210px 210px 210px 210px;
+}
+.grid-container a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}
+.item-1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.item-2 {
+  grid-column: 3;
+  grid-row: 1;
+}
+.item-3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.item-4 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.page3 {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.postergirl {
+  position: relative;
+  bottom: -80px;
+}
+.box-1 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.box-2 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.box-3 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.box-4 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.page3 h1 {
+  text-decoration: none;
+  color: white;
+  font-size: 0px;
+  position: relative;
+  top: -10px;
+  right: -220px;
+}
+h4 {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  right: -210px;
+  bottom: -120px;
+}
+p a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  right: -1030px;
+  top: -970px;
+}
+.page4 {
+  background-color: black;
+  background-image: url(img/backgroundfour.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.picture {
+  position: absolute;
+  left: 255px;
+}
+/*.links {
+  text-align: center;
+  position: absolute;
+} */
+.mygtukas button {
+  width: 500px;
+  font-size: 100px;
+  border-radius: 50px;
+  border: 1px white;
+  background-color: white;
+  position: absolute;
+  bottom: -2000px;
+  left: 800px;
+}
+.mygtukas a {
+  text-decoration: none;
+  color: black;
+}
+.page5 {
+  background-color: black;
+  background-image: url(img/AboutUsPAGE.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.curvedtext {
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  text-decoration: underline;
+  position: relative;
+  bottom: -100px;
+  right: -100px;
+}
+.firsttext {
+  width: 190px;
+  height: 130px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  float: right;
+  position: relative;
+  left: -100px;
+  top: -180px;
+}
+.secondtext {
+  width: 190px;
+  height: 240px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  float: right;
+  position: relative;
+  right: -130px;
+}
+.page6 {
+  background-color: grey;
+  background-image: url(img/baras.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.fa-brands {
+  padding: 10px;
+  font-size: 80px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  margin: 15px;
+  position: relative;
+  right: -70px;
+  bottom: -150px;
+}
+.fa-brands:hover {
+  color: darkgray;
+}
+.businessinfo {
+  color: white;
+  font-size: 35px;
+  position: relative;
+  bottom: -140px;
+  margin: 80px;
+}
+.action {
+  color: white;
+}
+.fa-solid {
+  color: black;
+  background-image: linear-gradient(white, grey);
+  border-radius: 90%;
+}
+.action .button {
+  font-size: 20px;
+  border-radius: 50%;
+}
+.rates {
+  float: right;
+  position: relative;
+  left: -310px;
+  top: -380px;
+}
+.action {
+  font-size: 45px;
+  text-align: center;
+  float: right;
+  position: relative;
+  top: -150px;
+  right: -180px;
+}
+.fa-solid {
+  padding: 5px;
+  font-size: 30px;
+  float: right;
+  position: relative;
+  top: -190px;
+  left: -100px;
+}
+.posting {
+  font-size: 20px;
+  border-radius: 50%;
+  width: 80px;
+  height: 50px;
+  float: right;
+  position: relative;
+  top: -20px;
+  right: -390px;
+}
+.degs {
+  float: right;
+  position: relative;
+  top: -570px;
+  right: -850px;
+}
+.page7 {
+  background-color: grey;
+  background-image: url(img/closingpage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.logosz {
+  position: relative;
+  right: -900px;
+}
+.lasttouch {
+  background-color: black;
+  width: 1473px;
+  height: 370px;
+}
+.lasttouch a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  margin: 550px;
+}
+.lasttouch a:hover {
+  color: grey;
+  font-size: 50px;
+  margin: 550px;
+}
+.pagr {
+  background-image: url(img/winterpage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.essentials {
+  background-image: url(img/wessentials.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.pava {
+  background-image: url(img/springpart.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.vasa {
+  background-image: url(img/summerpart.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.ruduo {
+  background-image: url(img/autumnpart.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.mgbg {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main {
+  width: 350px;
+  height: 500px;
+  background: black;
+  overflow: hidden;
+  background: black;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+#chk {
+  display: none;
+}
+.signup {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.etikete {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+input {
+  width: 60%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.mygtalas {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: gray;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.mygtalas:hover {
+  background: #6d44b8;
+}
+.login {
+  height: 460px;
+  background: #eee;
+  border-radius: 60% / 10%;
+  transform: translateY(-180px);
+  transition: 0.8s ease-in-out;
+}
+.login label {
+  color: black;
+  transform: scale(0.6);
+}
+
+#chk:checked ~ .login {
+  transform: translateY(-500px);
+}
+#chk:checked ~ .login label {
+  transform: scale(1);
+}
+#chk:checked ~ .signup label {
+  transform: scale(0.6);
+}
+.moonlightpf {
+  float: left;
+  position: relative;
+  top: 120px;
+}
+.paras {
+  float: left;
+  position: relative;
+  left: 230px;
+  top: 400px;
+}
+.parauno {
+  float: left;
+  position: relative;
+  left: 400px;
+  top: 380px;
+}
+.blgbtn button {
+  width: 500px;
+  font-size: 100px;
+  border-radius: 50px;
+  border: 1px white;
+  background-color: white;
+  float: right;
+  position: relative;
+  left: 45px;
+  top: 100px;
+}
+.blgbtn a {
+  text-decoration: none;
+  color: black;
+}
+.textbox {
+  float: right;
+  position: relative;
+  right: 300px;
+  top: 300px;
+}
+#move {
+  position: relative;
+  top: 350px;
+}
+.pirmutis {
+  background-image: url(img/wintercoll.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.antrutis {
+  background-image: url(img/xmascoll.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.springcoll {
+  background-image: url(img/springcoll.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.bloomcoll {
+  background-image: url(img/bloomcoll.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.cs {
+  background-image: url(img/cmngsoon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.smrcoll {
+  background-image: url(img/summercoll.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.so {
+  background-image: url(img/goopyoutfit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.af {
+  background-image: url(img/autumncoll.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.lfao {
+  background-image: url(img/lfoutfit.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.scarfq {
+  background-image: url(img/scarf.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.mittensq {
+  background-image: url(img/mittens.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.layersoq {
+  background-image: url(img/layerso.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.layerstq {
+  background-image: url(img/layerst.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}
+.bootsq {
+  background-image: url(img/boots.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+}

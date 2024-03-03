@@ -1,0 +1,134 @@
+@media screen and (min-width: 576px) {
+  .page4 {
+    background-color: black;
+    background-image: url(img/backgroundfour.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100vh;
+  }
+  .picture {
+    position: absolute;
+    left: 255px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: xx-large;
+    position: relative;
+    left: -80px;
+    top: -50px;
+  }
+  h3 {
+    position: relative;
+    top: -230px;
+    right: 90px;
+  }
+  .location {
+    position: relative;
+    top: -410px;
+    left: -170px;
+  }
+  .mygtukas button {
+    width: 500px;
+    font-size: 100px;
+    border-radius: 50px;
+    border: 1px white;
+    background-color: white;
+    position: absolute;
+    bottom: -2000px;
+    left: 800px;
+  }
+  .page6 {
+    background-color: grey;
+    background-image: url(img/baras.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100vh;
+  }
+  .fa-brands {
+    padding: 10px;
+    font-size: 80px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    margin: 15px;
+    position: relative;
+    right: -70px;
+    bottom: -150px;
+  }
+  .fa-brands:hover {
+    color: darkgray;
+  }
+  .businessinfo {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    bottom: -140px;
+    margin: 80px;
+  }
+  .action {
+    color: white;
+  }
+  .fa-solid {
+    color: black;
+    background-image: linear-gradient(white, grey);
+    border-radius: 90%;
+  }
+  .action .button {
+    font-size: 20px;
+    border-radius: 50%;
+  }
+  .rates {
+    float: right;
+    position: relative;
+    left: -140px;
+    top: -380px;
+  }
+  .action {
+    font-size: 45px;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: -150px;
+    right: -360px;
+  }
+  .fa-solid {
+    padding: 5px;
+    font-size: 30px;
+    float: right;
+    position: relative;
+    top: -190px;
+    left: 90px;
+  }
+  .posting {
+    font-size: 20px;
+    border-radius: 50%;
+    width: 80px;
+    height: 50px;
+    float: right;
+    position: relative;
+    top: -20px;
+    right: -570px;
+  }
+  .degs {
+    float: right;
+    position: relative;
+    top: -570px;
+    right: -850px;
+  }
+}
+@media screen and (min-width: 3640px) {
+  .lasttouch {
+    background-color: black;
+    width: 1572px;
+    height: 370px;
+  }
+}
